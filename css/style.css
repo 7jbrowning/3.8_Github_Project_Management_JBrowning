@@ -1,0 +1,144 @@
+@import url('https://fonts.googleapis.com/css?family=Hind+Madurai|Oswald:700');
+#wrapper {
+	display: grid;
+	grid-template-columns: 240px 1000px;
+	grid-template-rows: 200px 20px 3360px;
+}
+
+.box {
+	width: 1400px;
+}
+
+#box1 {
+	background-color: #283747;
+	border-radius: 10px;
+	grid-column: span 2;
+	grid-row: 1;
+}
+
+#maincontent {
+	background-color: #283747;
+	border-radius: 10px;
+	grid-column: 2;
+	grid-row: 3;
+	width: 1160px;
+}
+
+#aside {
+	grid-column: 1;
+	grid-row: 3;
+	background-color: #2E4053;
+	width: 200px;
+	border-radius: 10px;
+	padding: 10px;
+}
+
+footer {
+ background-color: #283747;
+ text-align: center;
+ width: 1400px;
+ border-radius: 10px;
+ grid-column: span 2;
+}
+
+/* Navigation menu starts here */
+nav{
+background-color: #8D0000;
+float: left;
+height: 45px;
+width: 1400px;
+border-radius: 5px;
+}
+
+/* all unordered lists*/
+ul {
+	padding: 0;
+	margin: 0;
+	list-style-type: none;
+	overflow: hidden;
+	font-family: Arial;
+	font-size: 18px;
+	font-weight: bold;
+}
+
+/* Just the unordered list within list items*/
+li {
+	float: left;
+	padding-left: 15px;
+	padding-right: 15px;
+	padding-bottom: 15px;
+	padding-top: 15px;
+}
+
+a:link {color:white;} /* unvisited link */
+a:visited {color:white;} /* visited link */
+a:hover {color:#FFF99E;} /* mouse over link */
+a:active {color:#FFFFFF;}  /* selected link */
+
+a {
+text-decoration: none;
+}
+
+li ul {
+	position: absolute;
+	display: none;
+	background-color: #CF0000;
+}
+
+li:hover ul {display: block;
+	margin-top: 15px;
+}
+
+li li {
+	float: none;
+}
+
+/* Text */
+
+h1 {
+	font-family: 'Oswald', sans-serif;
+	font-size: 24px;
+	padding: 10px;
+}
+
+heading1, heading2{
+	width: 95%;
+	display: grid;
+	grid-gap: 2%;
+	grid-template-columns: 0% 17% 17% 26% 30% 20%;
+	grid-template-rows: 26px;
+}
+
+heading1{
+	background-color: $0f0;
+	border-bottom: 1px solid $aaa;
+	padding-top: 4px;
+	padding-left: 5px;
+}
+
+heading2 {
+	padding-top: 4px;
+	padding-left: 5px;
+}
+
+
+p {
+	font-family: 'Hind Madurai', sans-serif;
+	font-size: 16px;
+	padding: 10px;
+}
+
+
+
+html {
+	background-color: #1B2631;
+	color: white;
+}
+
+
+/*banner image*/
+#banner {
+	position: relative;
+	width: 1400px;
+	height: 200px;
+}
