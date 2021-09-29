@@ -1,0 +1,91 @@
+<!-- The Host address for my Website Form goes here -->
+
+<!-- --> 
+
+<!-- -->
+
+<html>
+	<head>
+		<title>PHP Form Design</title>
+		<link rel = "stylesheet" href = "css/style3.css">
+		<link rel="icon" type="image/ico" href="favicon.ico">
+	</head>
+	
+	<body>
+		<div id = "main">
+			<h1>Contact</h1>
+			<br>
+			<nav>
+				<ul>
+					<li><a href = "index.php">Home</a></li>
+					<li><a href = "artists.php">Artists</a></li>
+					<li><a href = "contact.php">Contact</a></li>
+				</ul>
+			</nav>
+			
+			<!-- Break to bring Form down below nav -->
+			<br><br><hr><br>
+			
+			<!-- Form -->
+			<div class = "contact_container">
+				<form action = "mail-test.php" method = "post">
+				
+				<!-- Name Field -->
+				
+				<div class = "row">
+					<div class = "column">
+					<label for = "fname">Full Name</label>
+					</div>
+					<div class = "column2">
+					<input type = "text" id - "name" placeholder = "Your full name">
+					</div>
+				</div>
+				
+				<!-- Email Field -->
+				
+				<div class = "row">
+				<div class = "column">
+				<label for = "email">Email Adress</label>
+				</div>
+				<div class = "column2">
+				<input type = "text" id - "email" name - "emailaddress" placeholder = "Your email address">
+				</div>
+				</div>
+				
+				<!-- Contact Number Field -->
+				
+				<div class = "row">
+				<div class = "column">
+				<label for = "contactnumber">Contact Number</label>
+				</div>
+				<div class = "column2">
+				<input type = "text" id = "contactnumber" placeholder = "A contact number">
+				</div>
+				</div>
+				
+				<!-- Subject Field -->
+				
+				<div class = "row">
+				<div class = "column">
+				<label for = "subject">Subject</label>
+				</div>
+				<div class = "column2">
+				<textarea id = "body" name = "body" placeholder = "Write something.." style = "height:200px"></textarea>
+				</div>
+				</div>
+				
+				<!-- Submit Button -->
+				
+				<div class = "row">
+				<input type = "submit" value = "Submit">
+				</div>
+				
+				</form>
+				
+			</div>
+		</div>
+	</body>
+	<footer>
+	   <p>&copy; Jack Browning 2021</p>
+   </footer>
+</html>
