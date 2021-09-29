@@ -1,0 +1,151 @@
+/* fonts */
+@import url('https://fonts.googleapis.com/css?familyMontserrat=&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Hind+Madurai|Oswald:700');
+@import url('https://fonts.googleapis.com/css?familyRambahadra=&display=swap');
+
+body {
+	margin-left: 20px;
+	margin-right: 20px;
+	background-color: #283747;
+}
+
+html {
+	background-color: #1B2631;
+	color: white;
+}
+
+hr {
+	border: 1px solid #eee;
+}
+
+h1, h2, h3 {
+	font-family: Calibri;
+	font-weight: bold;
+}
+
+/****************** FONTS *******************/
+h1 {
+	font-size: 2.0em;
+	color: #f60;
+	margin: 30 0 0 30; /* Contact Position, 30 is top down, 30 is left in */
+}
+
+/***************** NAVIGATION *********************/
+
+nav {
+	width: 100%;
+}
+
+nav ul {
+	text-align: center;
+	margin: 0px;
+	margin-left: 0%;
+	padding: 0px;
+}
+
+/* Creates a list item */
+nav ul li{
+	display: inline;
+	list-style: none;
+	float: left;
+	padding: 5px;
+	margin-left: 5px;
+	margin-right: 5px;
+	text-align: center;
+	border: 2px solid #eee;
+	-moz-border-radius: 6px;
+	-webkit-border-radius: 6px;
+	border-radius: 6px;
+	width: 17%; /* fallback for non-calc() browsers */
+	width: calc(85% / 5);
+	box-sizing: border-box;
+	background-color: #2E4053;
+}
+
+/* Styling for link */
+
+nav a:link, nav a:active, nav a:visited{
+	font-family: Calibri;
+	font-weight: bold;
+	font-size: 1.4em;
+	text-decoration: none;
+}
+
+nav a:link{
+	color: #f60; /* nav link colour */
+}
+
+nav a:active{
+	color: #f60; /* nav link active colour */
+}
+
+nav a:visited{ /* nav link visited colour */
+	color: #f60;
+}
+
+/*********** Contact Form **************/
+
+input[type=text], select, textarea {
+	width: 100%;
+	padding: 12px;
+	border: 1px solid #ccc;
+	border-radius: 4px;
+	resize: vertical;
+}
+
+label {
+	padding: 12px 12px 12px 0;
+	display: inline-block;
+}
+
+input[type=submit] {
+	background-color: #4CAF50;
+	color: white;
+	padding: 12px 20px;
+	border: none;
+	border-radius: 4px;
+	cursor: pointer;
+	float: right;
+	margin-right: 35px;
+}
+
+input[type=submit]:hover {
+	background-color: #45a049;
+}
+
+
+.contact_container {
+	border-radius: 5px;
+	background-color: #f2f2f2;
+	padding: 20px;
+	font-family: 'Montserrat', sans-serif;
+}
+
+.column {
+	float: left;
+	width: 25%;
+	margin-top: 6px;
+}
+
+.column2 {
+	float: left;
+	width: 73%;
+	margin-top: 6px;
+}
+
+/* Clear floats after the columns */
+.row:after{
+	content:"";
+	display: table;
+	clear: both;
+}
+
+/*************** FOOTER ***********/
+
+footer {
+	background-color: #283747;
+	text-align: center;
+	font-family: Arial;
+	border-radius: 10px;
+	border: 1px solid #fff;
+}
